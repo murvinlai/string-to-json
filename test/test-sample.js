@@ -9,3 +9,4 @@ var input = { "widgets.weather.name":"xxxxx",
 var output = str2json.convert(input);                
 
 console.log(JSON.stringify(output));
+
