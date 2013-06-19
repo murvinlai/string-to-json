@@ -1,0 +1,27 @@
+{
+    "name":"string-to-json",
+    "version":"0.1.0",
+    "description":"Extend some features of underscore.js",
+    "homepage":"https://github.com/murvinlai/string-to-json",
+    "author": {
+        "name":   "Murvin Lai",
+        "email":  "murvinlai@gmail.com"
+    },
+    "scripts":{
+
+    },
+    "dependencies":{
+        "underscore": ">= 1.4.4"
+    },
+    "devDependencies":{
+        
+    },
+    "keywords": [
+        "underscore",
+        "extension"
+    ],
+    "repository": "git://github.com/murvinlai/string-to-json.git",
+    "license": "MIT",
+    "main":"./index.js",
+    "engines": {    "node": "*" }
+}
