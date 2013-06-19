@@ -17,8 +17,11 @@
         
     },
     "keywords": [
-        "underscore",
-        "extension"
+        "string to json",
+        "string",
+        "json",
+        "dot notation",
+        "convert"
     ],
     "repository": "git://github.com/murvinlai/string-to-json.git",
     "license": "MIT",
