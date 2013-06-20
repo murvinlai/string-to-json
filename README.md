@@ -22,8 +22,19 @@ will result in: {"canada":{"bc":{"yvr":{"name":"Vancouver","id":"1234"}}},"usa":
 ```js
     var str2json = require('string-to-json');
     
-    str2json.convert({"abc.def.g":2});
+    var output = str2json.convert({"abc.def.g":2});
+
+    // result: output = {'abc':{'def':{{'g':2}}}
+
+
+   var output = str2json.convert({"abc.def.g":2, "abc.def.h":[1,2,3], "abc.def.i":"xxxxx"});
+
+   // result: output = {abc:{def:{g:2, h:[1,2,3], i:"xxxxx"}}}
 
 ```
 
+## Upcoming
+
+- Take input as JSON format in entire string like this:  '{"abc.def.g":123}' which passes JSON.parse();
+- Take input as http query like this: 'abc.def.g=123&abc.def.h=[1,2,3]&abc.def.i=xxxxx'
 
